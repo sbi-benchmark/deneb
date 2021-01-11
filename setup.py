@@ -12,8 +12,8 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 NAME = "deneb"
-DESCRIPTION = "Visualization library build on top of Altair and Vega."
-URL = "https://github.com/jan-matthis/deneb"
+DESCRIPTION = "Visualization library build on top of Altair and Vega"
+URL = "https://github.com/sbi-benchmark/deneb"
 EMAIL = "mail@jan-matthis.de"
 AUTHOR = "Jan-Matthis Lueckmann"
 REQUIRES_PYTHON = ">=3.6.0"
