@@ -18,7 +18,13 @@ EMAIL = "mail@jan-matthis.de"
 AUTHOR = "Jan-Matthis Lueckmann"
 REQUIRES_PYTHON = ">=3.6.0"
 
-REQUIRED = ["altair", "altair_saver", "flatlatex", "mergedeep", "vega_datasets"]
+REQUIRED = [
+    "altair<=4.2.0", 
+    "altair_saver", 
+    "flatlatex", 
+    "mergedeep", 
+    "vega_datasets",
+]
 EXTRAS = {
     "dev": ["autoflake", "black", "flake8", "ipdb", "isort", "pytest"],
 }
